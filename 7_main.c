@@ -8,3 +8,7 @@ int main(){
             imax = i;
         }
     }
+printf("Самый тёплый день: %d (%.1f°C)\n", imax + 1, temps[imax]);
+
+    return 0;
+}
